@@ -1,0 +1,567 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Demira Dental Clinic | Family dentist in Mulund West, Mumbai</title>
+<meta name="description" content="Trusted dental care for the whole family in Mulund West, Mumbai. Website design preview.">
+<meta property="og:title" content="Demira Dental Clinic">
+<meta property="og:description" content="Trusted dental care for the whole family. Website design preview.">
+<meta name="theme-color" content="#0A1F3C">
+<link rel="icon" href="assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Inter+Tight:wght@500;600;700&amp;display=swap">
+<style>
+html{scroll-behavior:smooth}
+body{margin:0;background:#F4F8FB}
+*{box-sizing:border-box}
+img{max-width:100%}
+a{color:#0B63CE}a:hover{color:#084C9E}
+.ph{background-size:cover;background-position:center;background-repeat:no-repeat}
+.ph-hero{background:url(assets/hero.jpg) 50% 30%/cover no-repeat,#DCE8F3}
+.ph-smile{background:url(assets/smile.jpg) 50% 28%/cover no-repeat,#DCE8F3}
+.ph-clinic{background:url(assets/clinic.jpg) 40% 45%/cover no-repeat,#DCE8F3}
+.ph-room{background:url(assets/family.jpg) 50% 30%/cover no-repeat,#DCE8F3}
+.ph-aligner{background:url(assets/aligner.jpg) 64% 45%/cover no-repeat,#DCE8F3}
+.ph-kids{background:url(assets/kids.jpg) 62% 40%/cover no-repeat,#DCE8F3}
+.ph-doc1{background:url(assets/dr-mrinalini.jpg) 50% 20%/cover no-repeat,#DCE8F3}
+.ph-doc2{background:url(assets/dr-kartik.jpg) 88% 30%/cover no-repeat,#DCE8F3}
+.ph-doc3{background:url(assets/team.jpg) 50% 35%/cover no-repeat,#DCE8F3}
+.ph-rest{background:url(assets/restorative.jpg) 52% 50%/cover no-repeat,#DCE8F3}
+.ph-impl{background:url(assets/implant.jpg) 58% 45%/cover no-repeat,#DCE8F3}
+.ph-prev{background:url(assets/preventive.jpg) 80% 50%/cover no-repeat,#DCE8F3}
+.ph-surg{background:url(assets/surgery.jpg) 58% 45%/cover no-repeat,#DCE8F3}
+.ph-cta{background:url(assets/aligner.jpg) 50% 35%/cover no-repeat,#DCE8F3}
+.map{background:url(assets/storefront.jpg) 50% 30%/cover no-repeat,#DCE8F3}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:52px;padding:0 26px;border-radius:0;font:600 15px Inter,system-ui,sans-serif;text-decoration:none;border:0;cursor:pointer;transition:transform .25s ease,background .25s ease,box-shadow .25s ease}
+.btn:hover{transform:translateY(-2px)}
+.btn-green{background:#0F7A3F;color:#fff}.btn-green:hover{background:#0B5F31;color:#fff}
+.btn-bronze{background:#0B63CE;color:#fff;box-shadow:0 10px 24px rgba(11,99,206,.28)}.btn-bronze:hover{background:#084C9E;color:#fff}
+.btn-ink{background:#0A1F3C;color:#fff}.btn-ink:hover{background:#000;color:#fff}
+.btn-white{background:#fff;color:#0A1F3C}.btn-white:hover{background:#F4F8FB;color:#0A1F3C}
+.btn-line{background:transparent;color:#0A1F3C;border:1px solid #B9C9DC}.btn-line:hover{border-color:#0A1F3C;color:#0A1F3C}
+.nav a.navl{color:#0A1F3C;text-decoration:none;font:500 14px Inter,system-ui,sans-serif;padding:10px 14px;border-radius:0;transition:background .2s}
+.nav a.navl:hover{background:#EEF5FC}
+.field{width:100%;height:50px;padding:0 16px;border:1px solid #D3DEEA;border-radius:0;background:#F5F9FD;font:15px Inter,system-ui,sans-serif;color:#0A1F3C;transition:border-color .2s,background .2s}
+.field:focus{outline:none;border-color:#0B63CE;background:#fff;box-shadow:0 0 0 4px rgba(11,99,206,.16)}
+.slot{flex:1 1 0;min-height:48px;border-radius:0;font:500 13px Inter,system-ui,sans-serif;cursor:pointer;display:flex;flex-direction:column;align-items:center;justify-content:center;line-height:1.25;transition:all .2s}
+.slot-off{background:#F5F9FD;color:#0A1F3C;border:1px solid #D3DEEA}.slot-off:hover{border-color:#0B63CE}
+.slot-on{background:#0A1F3C;color:#fff;border:1px solid #0A1F3C}
+.lift{transition:transform .35s cubic-bezier(.2,.7,.2,1),box-shadow .35s}.lift:hover{transform:translateY(-6px);box-shadow:0 24px 48px rgba(10,31,60,.10)}
+.svc .svc-img{transition:transform .6s cubic-bezier(.2,.7,.2,1)}.svc:hover .svc-img{transform:scale(1.05)}
+.svc .more{opacity:0;transform:translateY(8px);transition:all .3s}.svc:hover .more{opacity:1;transform:none}
+.track{display:flex;gap:56px;width:max-content;animation:marq 38s linear infinite}
+@keyframes marq{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.scroller{scrollbar-width:none}.scroller::-webkit-scrollbar{display:none}
+.dock{position:fixed;left:50%;bottom:20px;transform:translateX(-50%);z-index:60;display:flex;align-items:center;background:#0A1F3C;box-shadow:0 18px 40px rgba(10,31,60,.35)}
+.dock .btn{min-height:54px}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #7DB3F0;outline-offset:2px}
+h1{max-width:100%}
+@media (max-width:760px){
+ .nav nav{display:none !important}
+ .dock{left:12px;right:12px;bottom:12px;transform:none}
+ .dock .btn{flex:1;white-space:nowrap;padding:0 12px;font-size:14px;min-height:50px}
+ h1{width:auto !important}
+ .hide-sm{display:none !important}
+ .dock .dock-label{display:none}
+ .hero-body{padding:24px 20px 40px !important}
+ .pad-sm{padding-left:20px !important;padding-right:20px !important}
+}
+</style>
+</head>
+<body>
+<div id="app"></div>
+
+<template id="tpl">
+<div style="width: 100%; font-family: Inter, system-ui, sans-serif; color: #42526B; background: #F4F8FB; font-size: 16px; line-height: 1.6; -webkit-font-smoothing: antialiased">
+
+<div style="background: #0A1F3C; color: #C9D5E6; font-size: 13px">
+<div style="max-width: 1360px; margin: 0 auto; padding: 0 32px; min-height: 40px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 6px 24px">
+<span style="display: inline-flex; align-items: center; gap: 10px"><span style="background: #E5484D; color: #fff; font-weight: 700; font-size: 11px; padding: 3px 8px">Emergency</span>Same-day appointments for toothache &amp; injuries. Call <a href="tel:+918591183883" style="color: #fff; font-weight: 600; white-space: nowrap">+91 85911 83883</a></span>
+<span class="hide-sm">Mon to Sat, 10am to 2pm and 5pm to 9pm · Sundays by appointment · Mulund West, Mumbai</span>
+</div>
+</div>
+<section style="padding: 0">
+<div class="ph ph-hero" style="position: relative; border-radius: 0; overflow: hidden; min-height: 860px; display: flex; flex-direction: column">
+<div style="position: absolute; inset: 0; background: linear-gradient(180deg, rgba(8,24,48,.28) 0%, rgba(8,24,48,0) 26%, rgba(8,24,48,0) 46%, rgba(8,24,48,.86) 100%), linear-gradient(90deg, rgba(8,24,48,.55) 0%, rgba(8,24,48,0) 52%)" aria-hidden="true"></div>
+
+<header class="nav" style="position: relative; z-index: 2; margin: 0; background: #FFFFFF; border-radius: 0; padding: 12px 32px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; border-bottom: 1px solid #DCE5EF">
+<a href="#top" aria-label="Demira Dental Clinic home" style="display: inline-flex; align-items: center; gap: 12px; text-decoration: none">
+<img src="assets/mark.png" alt="" style="height: 38px; width: auto">
+<img src="assets/wordmark.png" alt="Demira" style="height: 14px; width: auto">
+</a>
+<nav aria-label="Main" style="display: flex; flex-wrap: wrap; gap: 2px">
+<a class="navl" href="#about">About</a>
+<a class="navl" href="#treatments">Treatments</a>
+<a class="navl" href="#doctors">Doctors</a>
+<a class="navl" href="#why">Why Demira</a>
+<a class="navl" href="#reviews">Reviews</a>
+<a class="navl" href="#visit">Contact</a>
+</nav>
+<div style="display: flex; align-items: center; gap: 8px">
+<a class="hide-sm" href="tel:+918591183883" style="display: inline-flex; align-items: center; gap: 8px; color: #0A1F3C; text-decoration: none; font-weight: 500; font-size: 14px; padding: 0 12px; min-height: 44px"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"></path></svg>+91 85911 83883</a>
+<a class="btn btn-green" href="https://wa.me/918591183883" style="min-height: 46px; padding: 0 18px"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21l1.6-4.7A8.5 8.5 0 1 1 7.7 19.4z"></path></svg>Chat with us</a>
+<a class="btn btn-bronze hide-sm" href="#book" style="min-height: 46px; padding: 0 20px; box-shadow: none"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16"></rect><path d="M3 10h18M8 3v4M16 3v4"></path></svg>Book appointment</a>
+</div>
+</header>
+
+<div class="hero-body" style="position: relative; z-index: 1; flex: 1 1 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 480px), 1fr)); gap: 40px; padding: 32px 56px 56px; align-items: stretch">
+<div style="display: flex; flex-direction: column; justify-content: space-between; gap: 28px; min-height: 400px">
+<div style="display: inline-flex; align-items: center; gap: 14px; align-self: flex-start; background: rgba(255,255,255,.10); border: 1px solid rgba(255,255,255,.22); backdrop-filter: blur(10px); padding: 6px 16px 6px 6px; border-radius: 40px">
+<span style="display: flex">
+<img src="assets/av-1.jpg" alt="" style="width: 32px; height: 32px; border-radius: 20px; object-fit: cover; background: #BFD6F0; border: 2px solid #0A1F3C; display: inline-flex">
+<img src="assets/av-2.jpg" alt="" style="width: 32px; height: 32px; border-radius: 20px; object-fit: cover; background: #9CC8F5; border: 2px solid #0A1F3C; margin-left: -10px; display: inline-flex">
+<img src="assets/av-3.jpg" alt="" style="width: 32px; height: 32px; border-radius: 20px; object-fit: cover; background: #7DB3F0; border: 2px solid #0A1F3C; margin-left: -10px; display: inline-flex">
+</span><span style="color: #fff; font-size: 14px">Now serving families in Mulund West · Free first check-up</span>
+</div>
+<div style="display: flex; flex-direction: column; gap: 24px">
+<h1 style="margin: 0; font-family: 'Inter Tight', Inter, sans-serif; font-weight: 700; font-size: clamp(46px, 5.4vw, 78px); line-height: 1; letter-spacing: -0.035em; color: #FFFFFF; width: 703px">Trusted dental care<br>for the <span style="color: #8EC1F7">whole family.</span></h1>
+<p style="margin: 0; max-width: 470px; font-size: 17px; color: rgba(255,255,255,.86)">DCI-registered specialists, hospital-grade sterilisation and clear treatment plans, from your first check-up to implants and aligners.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 12px">
+<a class="btn btn-bronze" href="#book" style="min-height: 60px; padding: 0 30px; font-size: 16px"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16"></rect><path d="M3 10h18M8 3v4M16 3v4"></path></svg>Book an appointment</a>
+<a class="btn btn-green" href="https://wa.me/918591183883" style="min-height: 60px; padding: 0 30px; font-size: 16px"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21l1.6-4.7A8.5 8.5 0 1 1 7.7 19.4z"></path></svg>Chat on WhatsApp</a>
+</div>
+</div>
+</div>
+
+<div id="book" style="justify-self: end; width: 100%; max-width: 410px; align-self: start; background: rgba(255,255,255,.96); backdrop-filter: blur(20px); border-radius: 0; padding: 30px; box-shadow: 0 30px 60px rgba(0,0,0,.22)">
+<sc-if value="{{sent}}">
+<div role="status" style="display: flex; flex-direction: column; gap: 16px; align-items: flex-start; padding: 8px 0">
+<span style="width: 56px; height: 56px; border-radius: 0; background: #E4F3EA; color: #0F7A3F; display: inline-flex; align-items: center; justify-content: center"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l4 4 10-10"></path></svg></span>
+<h2 style="margin: 0; font-family: 'Inter Tight', sans-serif; font-weight: 500; font-size: 28px; letter-spacing: -0.02em; color: #0A1F3C; line-height: 1.15">You’re all set, {{firstName}}.</h2>
+<p style="margin: 0; font-size: 15px">Our front desk will call or WhatsApp you on <strong style="color: #0A1F3C">{{phone}}</strong> to confirm your <strong style="color: #0A1F3C">{{treatment}}</strong> visit, usually within 2 hours.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 10px; margin-top: 6px">
+<a class="btn btn-ink" href="{{waLink}}" target="_blank" rel="noopener" style="min-height: 46px">Also send on WhatsApp</a>
+<button class="btn btn-line" type="button" onClick="{{reset}}" style="min-height: 46px">New request</button>
+</div>
+</div>
+</sc-if>
+<sc-if value="{{editing}}">
+<form action="#" onSubmit="{{submit}}" novalidate="" style="display: flex; flex-direction: column; gap: 14px">
+<div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; margin-bottom: 4px">
+<div>
+<h2 style="margin: 0; font-family: 'Inter Tight', sans-serif; font-weight: 500; font-size: 26px; letter-spacing: -0.02em; color: #0A1F3C; line-height: 1.1">Book an appointment</h2>
+<p style="margin: 6px 0 0; font-size: 14px; color: #5B6B82">Free call-back within 2 hours.</p>
+</div>
+<span style="display: inline-flex; align-items: center; gap: 6px; background: #E4F3EA; color: #0F6B37; font-size: 12px; font-weight: 600; padding: 6px 10px; border-radius: 0; white-space: nowrap"><span style="width: 7px; height: 7px; border-radius: 50%; background: #0F7A3F"></span>Slots today</span>
+</div>
+<label style="display: flex; flex-direction: column; gap: 6px; font-size: 13px; font-weight: 500; color: #0A1F3C">Full name<input class="field" type="text" autocomplete="name" placeholder="Your name" value="{{name}}" onChange="{{onName}}"></label>
+<label style="display: flex; flex-direction: column; gap: 6px; font-size: 13px; font-weight: 500; color: #0A1F3C">Mobile number<input class="field" type="tel" autocomplete="tel" placeholder="Your 10-digit mobile number" value="{{phone}}" onChange="{{onPhone}}"></label>
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px">
+<label style="display: flex; flex-direction: column; gap: 6px; font-size: 13px; font-weight: 500; color: #0A1F3C">Treatment<select class="field" data-options="treatments" value="{{treatment}}" onChange="{{onTreatment}}" style="padding-right: 8px"></select></label>
+<label style="display: flex; flex-direction: column; gap: 6px; font-size: 13px; font-weight: 500; color: #0A1F3C">Preferred date<input class="field" type="date" value="{{date}}" onChange="{{onDate}}"></label>
+</div>
+<div style="display: flex; flex-direction: column; gap: 6px">
+<span id="slot-lbl" style="font-size: 13px; font-weight: 500; color: #0A1F3C">Preferred time</span>
+<div role="group" aria-labelledby="slot-lbl" style="display: flex; gap: 8px">
+<sc-for list="{{slots}}" as="s">
+<sc-if value="{{s.on}}"><button class="slot slot-on" type="button" aria-pressed="true" onClick="{{s.pick}}">{{s.label}}<span style="font-size: 11px; opacity: .75">{{s.time}}</span></button></sc-if>
+<sc-if value="{{s.off}}"><button class="slot slot-off" type="button" aria-pressed="false" onClick="{{s.pick}}">{{s.label}}<span style="font-size: 11px; color: #5B6B82">{{s.time}}</span></button></sc-if>
+</sc-for>
+</div>
+</div>
+<sc-if value="{{hasError}}"><div role="alert" style="background: #FBEDE8; color: #8A2E1F; border-radius: 0; padding: 10px 14px; font-size: 13px; font-weight: 500">{{error}}</div></sc-if>
+<button class="btn btn-bronze" type="submit" style="width: 100%; margin-top: 4px">Request appointment <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></button>
+<div style="display: flex; align-items: center; gap: 8px; font-size: 12.5px; color: #5B6B82"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"></rect><path d="M8 11V7a4 4 0 0 1 8 0v4"></path></svg>Private &amp; secure. We’ll only contact you about this visit.</div>
+</form>
+</sc-if>
+</div>
+</div>
+</div>
+</section>
+
+<section aria-label="Highlights" style="overflow: hidden; padding: 26px 0; border-bottom: 1px solid #D3DEEA">
+<div class="track" style="font-family: 'Inter Tight', sans-serif; font-size: 22px; color: #0A1F3C; letter-spacing: -0.01em; white-space: nowrap">
+<sc-for list="{{marquee}}" as="m"><span style="display: inline-flex; align-items: center; gap: 56px">{{m}}<svg width="18" height="18" viewBox="0 0 24 24" fill="#0B63CE" aria-hidden="true"><path d="M12 2l1.8 7.2L21 12l-7.2 1.8L12 22l-1.8-8.2L3 12l7.2-2.8z"></path></svg></span></sc-for>
+</div>
+</section>
+
+<section id="about" class="pad-sm" style="max-width: 1320px; margin: 0 auto; padding: 120px 32px 40px">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 32px; margin-bottom: 56px">
+<div style="max-width: 900px">
+<div style="display: inline-flex; align-items: center; gap: 10px; font-size: 15px; font-weight: 600; color: #0B63CE; margin-bottom: 18px">About Demira</div>
+<h2 style="margin: 0; font-family: 'Inter Tight', sans-serif; font-weight: 700; font-size: clamp(32px, 3.6vw, 52px); line-height: 1.1; letter-spacing: -0.03em; color: #0A1F3C">Healthy smiles inspire confidence. We’re dedicated to <span style="color: rgb(123, 139, 163)">calm, honest, expert dental care in a space that feels nothing like a clinic.</span></h2>
+</div>
+<a class="btn btn-line" href="#doctors">Our story</a>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 16px">
+<div class="lift" style="flex: 2 1 520px; min-height: 360px; border-radius: 0; overflow: hidden; background: #0A1F3C; display: flex; flex-wrap: wrap; position: relative">
+<div style="flex: 1 1 240px; padding: 34px; display: flex; flex-direction: column; justify-content: space-between; gap: 24px; position: relative; z-index: 1">
+<div style="font-size: 14px; font-weight: 500; color: #9CC8F5">Your smile, our priority</div>
+<div>
+<div style="font-family: 'Inter Tight', sans-serif; font-weight: 500; font-size: 30px; line-height: 1.12; letter-spacing: -0.02em; color: #fff; margin-bottom: 20px">Healthy smiles for <span style="color: #8EC1F7">every</span> generation</div>
+<a class="btn btn-white" href="#treatments" style="min-height: 44px; padding: 0 18px; font-size: 14px">Learn more</a>
+</div>
+</div>
+<div class="ph ph-smile" role="img" aria-label="A smiling patient after her check-up" style="flex: 1 1 240px; min-height: 360px"></div>
+</div>
+<div class="lift" style="flex: 1 1 240px; min-height: 360px; border-radius: 0; background: #0A1F3C; padding: 30px; display: flex; flex-direction: column; justify-content: space-between">
+<div style="font-size: 14px; font-weight: 500; color: #A9B8CE">Average rating</div>
+<div>
+<div style="font-family: 'Inter Tight', sans-serif; font-weight: 500; font-size: 88px; line-height: .9; letter-spacing: -0.05em; color: #fff">4.9</div>
+<div style="color: #F2A900; letter-spacing: 4px; margin: 14px 0 8px" aria-label="Five stars">★★★★★</div>
+<div style="font-size: 14px; color: #A9B8CE">From 600+ Google reviews by real patients.</div>
+</div>
+</div>
+<div class="lift" style="flex: 1 1 240px; min-height: 360px; border-radius: 0; background: #FFFFFF; padding: 30px; display: flex; flex-direction: column; justify-content: space-between; border: 1px solid #DCE5EF">
+<div style="font-size: 14px; font-weight: 500; color: #0B63CE">Patient satisfaction</div>
+<div>
+<div style="font-family: 'Inter Tight', sans-serif; font-weight: 500; font-size: 88px; line-height: .9; letter-spacing: -0.05em; color: #0A1F3C">98<span style="font-size: 44px; color: #0B63CE">%</span></div>
+<div style="height: 6px; border-radius: 0; background: #E3EDF8; margin: 22px 0 12px; overflow: hidden"><div style="width: 98%; height: 100%; background: linear-gradient(90deg, #7DB3F0, #0B63CE); border-radius: 0"></div></div>
+<div style="font-size: 14px; color: #5B6B82">Would recommend Demira to family and friends.</div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="treatments" style="padding: 80px 0 0">
+<div style="background: #0A1F3C; border-radius: 0; padding: 88px 0 72px; position: relative; overflow: hidden">
+<div aria-hidden="true" style="position: absolute; right: -120px; top: -160px; width: 520px; height: 520px; border-radius: 0; background: radial-gradient(circle, rgba(125,179,240,.22) 0%, rgba(125,179,240,0) 70%)"></div>
+<div class="pad-sm" style="max-width: 1320px; margin: 0 auto; padding: 0 48px; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 32px; position: relative">
+<div style="max-width: 640px">
+<div style="display: inline-flex; align-items: center; gap: 10px; font-size: 15px; font-weight: 600; color: #9CC8F5; margin-bottom: 18px">What we do best</div>
+<h2 style="margin: 0; font-family: 'Inter Tight', sans-serif; font-weight: 700; font-size: clamp(36px, 4vw, 58px); line-height: 1.04; letter-spacing: -0.035em; color: #fff">Complete care for <span style="color: #8EC1F7">every</span> smile.</h2>
+</div>
+<div style="max-width: 360px; display: flex; flex-direction: column; gap: 20px; align-items: flex-start">
+<p style="margin: 0; color: rgba(255,255,255,.72); font-size: 15px">From your first check-up to implants and smile makeovers. Eight specialities, one trusted team.</p>
+<a class="btn btn-white" href="#book" style="min-height: 46px">Book a consultation</a>
+</div>
+</div>
+<div class="scroller pad-sm" style="overflow-x: auto; margin-top: 56px; padding: 0 48px 8px; scroll-snap-type: x mandatory">
+<div style="display: flex; gap: 16px; width: max-content">
+<sc-for list="{{services}}" as="s">
+<a class="svc" href="#book" style="width: 296px; flex-shrink: 0; scroll-snap-align: start; text-decoration: none; display: flex; flex-direction: column; gap: 10px">
+<span style="display: flex; align-items: center; gap: 12px; background: #fff; border-radius: 0; padding: 14px 16px">
+<span style="width: 34px; height: 34px; border-radius: 0; background: #EEF5FC; color: #0B63CE; display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path data-d="{{s.icon}}"></path></svg></span>
+<span style="font-weight: 600; font-size: 15px; color: #0A1F3C">{{s.title}}</span>
+</span>
+<span style="position: relative; display: block; height: 330px; border-radius: 0; overflow: hidden; background: #EEF5FC">
+<span class="svc-img ph {{s.cls}}" style="position: absolute; inset: 0; display: block"></span>
+<span style="position: absolute; left: 16px; right: 16px; bottom: 16px; display: flex; justify-content: space-between; align-items: flex-end; gap: 12px">
+<span style="font-size: 13px; color: #0A1F3C; background: rgba(255,255,255,.88); backdrop-filter: blur(8px); padding: 8px 12px; border-radius: 0; line-height: 1.35">{{s.text}}</span>
+<span class="more" style="width: 40px; height: 40px; border-radius: 0; background: #0A1F3C; color: #fff; display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M8 7h9v9"></path></svg></span>
+</span>
+</span>
+</a>
+</sc-for>
+</div>
+</div>
+<div class="pad-sm" style="max-width: 1320px; margin: 28px auto 0; padding: 0 48px; display: flex; align-items: center; gap: 10px; color: rgba(255,255,255,.55); font-size: 13px"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>Scroll to see all eight specialities</div>
+</div>
+</section>
+
+<section id="why" class="pad-sm" style="max-width: 1320px; margin: 0 auto; padding: 128px 32px 40px">
+<div style="text-align: center; max-width: 760px; margin: 0 auto 56px">
+<div style="display: inline-flex; align-items: center; gap: 10px; font-size: 15px; font-weight: 600; color: #0B63CE; margin-bottom: 18px">Why patients choose us</div>
+<h2 style="margin: 0; font-family: 'Inter Tight', sans-serif; font-weight: 700; font-size: clamp(36px, 4vw, 58px); line-height: 1.04; letter-spacing: -0.035em; color: #0A1F3C">Designed around <span style="color: #0B63CE">your</span> comfort.</h2>
+<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-top: 28px"><a class="btn btn-bronze" href="#book" style="box-shadow: none">Book a consultation</a><a class="btn btn-green" href="https://wa.me/918591183883">Ask us on WhatsApp</a></div>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 16px; align-items: stretch">
+<div style="flex: 2 1 640px; display: flex; flex-wrap: wrap; gap: 16px">
+<div class="lift" style="flex: 1 1 300px; background: #fff; border: 1px solid #DCE5EF; border-radius: 0; padding: 28px; display: flex; flex-direction: column; gap: 20px">
+<div style="display: flex; justify-content: space-between; align-items: center"><span style="display: inline-flex; align-items: center; gap: 10px; font-weight: 600; color: #0A1F3C"><span style="width: 36px; height: 36px; border-radius: 0; background: #EEF5FC; color: #0B63CE; display: inline-flex; align-items: center; justify-content: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"></path></svg></span>Pain-conscious care</span><span style="font-size: 12px; color: #5B6B82">Every visit</span></div>
+<div style="font-family: 'Inter Tight', sans-serif; font-size: 44px; font-weight: 500; letter-spacing: -0.04em; color: #0A1F3C; line-height: 1">Gentle<span style="font-size: 18px; color: #0B63CE; letter-spacing: 0"> by default</span></div>
+<div aria-hidden="true" style="display: flex; gap: 4px; height: 44px; align-items: stretch"><sc-for list="{{bars}}" as="b"><sc-if value="{{b.on}}"><span style="flex: 1; border-radius: 0; background: #0B63CE"></span></sc-if><sc-if value="{{b.off}}"><span style="flex: 1; border-radius: 0; background: #E3EDF8"></span></sc-if></sc-for></div>
+<div style="font-size: 14px">Numbing gels, modern anaesthesia and an unhurried pace. Nervous patients welcome.</div>
+</div>
+<div class="lift" style="flex: 1 1 300px; background: #fff; border: 1px solid #DCE5EF; border-radius: 0; padding: 28px; display: flex; flex-direction: column; gap: 18px">
+<span style="display: inline-flex; align-items: center; gap: 10px; font-weight: 600; color: #0A1F3C"><span style="width: 36px; height: 36px; border-radius: 0; background: #E4F3EA; color: #0F7A3F; display: inline-flex; align-items: center; justify-content: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"></path><path d="M9 12l2 2 4-4"></path></svg></span>Hospital-grade hygiene</span>
+<ul style="list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px">
+<sc-for list="{{hygiene}}" as="h"><li style="display: flex; justify-content: space-between; align-items: center; gap: 12px; background: #F5F9FD; border-radius: 0; padding: 11px 14px; font-size: 14px; color: #0A1F3C">{{h}}<span style="width: 22px; height: 22px; border-radius: 0; background: #0F7A3F; color: #fff; display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l4 4 10-10"></path></svg></span></li></sc-for>
+</ul>
+</div>
+<div class="lift" style="flex: 1 1 300px; background: #fff; border: 1px solid #DCE5EF; border-radius: 0; padding: 28px; display: flex; flex-direction: column; gap: 16px">
+<span style="display: inline-flex; align-items: center; gap: 10px; font-weight: 600; color: #0A1F3C"><span style="width: 36px; height: 36px; border-radius: 0; background: #EEF5FC; color: #0B63CE; display: inline-flex; align-items: center; justify-content: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 3h10v18l-3-2-2 2-2-2-3 2z"></path><path d="M10 8h4M10 12h4"></path></svg></span>Clear costs, upfront</span>
+<div style="background: #F5F9FD; border-radius: 0; padding: 16px; display: flex; flex-direction: column; gap: 10px; font-size: 13.5px">
+<div style="display: flex; justify-content: space-between"><span>Consultation &amp; X-ray</span><span style="color: #0A1F3C; font-weight: 500">Included</span></div>
+<div style="display: flex; justify-content: space-between"><span>Treatment plan</span><span style="color: #0A1F3C; font-weight: 500">In writing</span></div>
+<div style="display: flex; justify-content: space-between; border-top: 1px dashed #C9D7E6; padding-top: 10px"><span>Hidden charges</span><span style="color: #0F7A3F; font-weight: 600">None</span></div>
+</div>
+<div style="font-size: 14px">Easy EMI on implants, aligners &amp; smile makeovers.</div>
+</div>
+<div class="lift" style="flex: 1 1 300px; background: #fff; border: 1px solid #DCE5EF; border-radius: 0; padding: 28px; display: flex; flex-direction: column; gap: 10px">
+<span style="display: inline-flex; align-items: center; gap: 10px; font-weight: 600; color: #0A1F3C"><span style="width: 36px; height: 36px; border-radius: 0; background: #EEF5FC; color: #0B63CE; display: inline-flex; align-items: center; justify-content: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="3"></circle><circle cx="17" cy="9" r="2.5"></circle><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6M15 14.5c3 0 6 1.8 6 5"></path></svg></span>Specialists under one roof</span>
+<div aria-hidden="true" style="position: relative; height: 150px">
+<div style="position: absolute; left: 50%; top: 50%; width: 220px; height: 120px; transform: translate(-50%, -50%); border: 1px dashed #C9D7E6; border-radius: 0"></div>
+<div style="position: absolute; left: 50%; top: 50%; width: 54px; height: 54px; transform: translate(-50%, -50%); border-radius: 0; background: #0A1F3C; display: flex; align-items: center; justify-content: center"><img src="assets/mark-white.png" alt="" style="width: 32px"></div>
+<span style="position: absolute; left: 6%; top: 40%; font-size: 12px; background: #fff; border: 1px solid #DCE5EF; border-radius: 0; padding: 5px 10px; color: #0A1F3C; box-shadow: 0 6px 14px rgba(0,0,0,.05)">Implants</span>
+<span style="position: absolute; right: 4%; top: 30%; font-size: 12px; background: #0A1F3C; border-radius: 0; padding: 5px 10px; color: #fff">Orthodontics</span>
+<span style="position: absolute; left: 30%; top: 2%; font-size: 12px; background: #fff; border: 1px solid #DCE5EF; border-radius: 0; padding: 5px 10px; color: #0A1F3C">Endodontics</span>
+<span style="position: absolute; right: 14%; bottom: 0; font-size: 12px; background: #fff; border: 1px solid #DCE5EF; border-radius: 0; padding: 5px 10px; color: #0A1F3C">Kids</span>
+<span style="position: absolute; left: 14%; bottom: 2%; font-size: 12px; background: #EEF5FC; border-radius: 0; padding: 5px 10px; color: #0B63CE">Cosmetic</span>
+</div>
+</div>
+</div>
+<div class="lift ph ph-room" role="img" aria-label="A smiling Indian family" style="flex: 1 1 380px; min-height: 560px; border-radius: 0; position: relative; overflow: hidden; display: flex; flex-direction: column; justify-content: flex-end">
+<div style="position: absolute; inset: 0; background: linear-gradient(180deg, rgba(10,31,60,0) 30%, rgba(10,31,60,.85) 100%)" aria-hidden="true"></div>
+<div style="position: relative; padding: 32px; display: flex; flex-direction: column; gap: 18px; align-items: flex-start">
+<span style="font-family: 'Inter Tight', sans-serif; font-size: 13px; color: #8EC1F7">For every age</span>
+<div style="font-family: 'Inter Tight', sans-serif; font-weight: 500; font-size: 34px; line-height: 1.08; letter-spacing: -0.025em; color: #fff">One trusted clinic for your <span style="color: #8EC1F7">whole family.</span></div>
+<p style="margin: 0; color: rgba(255,255,255,.78); font-size: 15px">Kids’ first visits, braces for teens, implants for parents. One caring team.</p>
+<a class="btn btn-white" href="#book" style="min-height: 48px">Book a family check-up</a>
+</div>
+</div>
+</div>
+</section>
+
+<section id="doctors" class="pad-sm" style="max-width: 1320px; margin: 0 auto; padding: 120px 32px 40px">
+<div style="display: flex; flex-wrap: wrap; gap: 48px; align-items: stretch">
+<div style="flex: 1 1 300px; display: flex; flex-direction: column; justify-content: space-between; gap: 32px">
+<div>
+<div style="display: inline-flex; align-items: center; gap: 10px; font-size: 15px; font-weight: 600; color: #0B63CE; margin-bottom: 18px">Our specialists</div>
+<h2 style="margin: 0 0 20px; font-family: 'Inter Tight', sans-serif; font-weight: 700; font-size: clamp(36px, 3.6vw, 52px); line-height: 1.04; letter-spacing: -0.035em; color: #0A1F3C">Meet the hands behind <span style="color: #0B63CE">every</span> smile.</h2>
+<p style="margin: 0; font-size: 16px; max-width: 380px">Highly qualified, DCI-registered dentists who combine advanced clinical training with genuine warmth.</p>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 12px"><a class="btn btn-ink" href="#book">Book with our doctors</a></div>
+</div>
+<div style="flex: 3 1 760px; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)); gap: 16px">
+<sc-for list="{{doctors}}" as="d">
+<a class="lift" href="#book" style="position: relative; display: block; height: 440px; border-radius: 0; overflow: hidden; text-decoration: none">
+<span class="ph {{d.cls}}" role="img" aria-label="Portrait of {{d.name}}" style="position: absolute; inset: 0; display: block"></span>
+<span style="position: absolute; left: 12px; right: 12px; bottom: 12px; background: rgba(255,255,255,.92); backdrop-filter: blur(12px); border-radius: 0; padding: 16px 18px; display: flex; justify-content: space-between; align-items: center; gap: 10px">
+<span><span style="display: block; font-family: 'Inter Tight', sans-serif; font-weight: 600; font-size: 17px; color: #0A1F3C">{{d.name}}</span><span style="display: block; font-size: 13px; font-weight: 500; color: #0B63CE; margin-top: 2px">{{d.role}}</span></span>
+<span style="background: #0B63CE; color: #fff; font-size: 13px; font-weight: 600; padding: 9px 12px; flex-shrink: 0">Book</span>
+</span>
+</a>
+</sc-for>
+</div>
+</div>
+</section>
+
+<section class="pad-sm" style="max-width: 1320px; margin: 0 auto; padding: 120px 32px 40px">
+<div style="background: #FFFFFF; border: 1px solid #DCE5EF; border-radius: 0; padding: clamp(28px, 5vw, 64px) clamp(20px, 4vw, 56px)">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 24px; margin-bottom: 56px">
+<h2 style="margin: 0; font-family: 'Inter Tight', sans-serif; font-weight: 700; font-size: clamp(32px, 3.4vw, 48px); line-height: 1.05; letter-spacing: -0.035em; color: #0A1F3C">Your first visit, <span style="color: #0B63CE">simplified.</span></h2>
+<p style="margin: 0; max-width: 360px; font-size: 15px">No jargon, no pressure. Here’s exactly what happens from the moment you book.</p>
+</div>
+<ol style="list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 230px), 1fr)); gap: 28px; position: relative">
+<sc-for list="{{steps}}" as="st">
+<li style="display: flex; flex-direction: column; gap: 14px">
+<div style="display: flex; align-items: center; gap: 14px"><span style="width: 52px; height: 52px; border-radius: 0; border: 1px solid #C9D7E6; display: inline-flex; align-items: center; justify-content: center; font-family: 'Inter Tight', sans-serif; font-weight: 500; color: #0B63CE; background: #F5F9FD">{{st.n}}</span><span style="flex: 1; height: 1px; background: linear-gradient(90deg, #C9D7E6, rgba(201,215,230,0))"></span></div>
+<h3 style="margin: 6px 0 0; font-family: 'Inter Tight', sans-serif; font-weight: 600; font-size: 20px; letter-spacing: -0.01em; color: #0A1F3C">{{st.t}}</h3>
+<p style="margin: 0; font-size: 15px">{{st.d}}</p>
+</li>
+</sc-for>
+</ol>
+</div>
+</section>
+
+<section id="reviews" class="pad-sm" style="max-width: 1320px; margin: 0 auto; padding: 120px 32px 40px">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 24px; margin-bottom: 48px">
+<div>
+<div style="display: inline-flex; align-items: center; gap: 10px; font-size: 15px; font-weight: 600; color: #0B63CE; margin-bottom: 18px">Patient stories</div>
+<h2 style="margin: 0; font-family: 'Inter Tight', sans-serif; font-weight: 700; font-size: clamp(36px, 4vw, 58px); line-height: 1.04; letter-spacing: -0.035em; color: #0A1F3C">Smiles that <span style="color: #0B63CE">speak</span> for us.</h2>
+</div>
+<a class="btn btn-line" href="https://maps.app.goo.gl/yBGrt6A8jS5bcJLV8" target="_blank" rel="noopener">Read all reviews</a>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); gap: 16px">
+<sc-for list="{{reviews}}" as="r">
+<sc-if value="{{r.dark}}">
+<figure class="lift" style="margin: 0; background: #0A1F3C; border-radius: 0; padding: 28px; display: flex; flex-direction: column; justify-content: space-between; gap: 28px; min-height: 300px">
+<div style="display: flex; justify-content: space-between; align-items: center"><span style="color: #F2A900; letter-spacing: 3px" aria-label="Five stars">★★★★★</span><span style="font-size: 12px; color: #9CC8F5">{{r.t}}</span></div>
+<blockquote style="margin: 0; font-family: 'Inter Tight', sans-serif; font-size: 20px; line-height: 1.4; letter-spacing: -0.01em; color: #fff">“Approved patient review goes here: two or three warm lines from a real Google review, shared with consent.”</blockquote>
+<figcaption style="display: flex; align-items: center; gap: 12px"><span style="width: 40px; height: 40px; border-radius: 0; background: #7DB3F0; color: #0A1F3C; font-weight: 600; display: inline-flex; align-items: center; justify-content: center">{{r.i}}</span><span style="color: #fff; font-weight: 500">{{r.n}}<span style="display: block; font-size: 12px; color: #A9B8CE; font-weight: 400">Google review</span></span></figcaption>
+</figure>
+</sc-if>
+<sc-if value="{{r.light}}">
+<figure class="lift" style="margin: 0; background: #FFFFFF; border: 1px solid #DCE5EF; border-radius: 0; padding: 28px; display: flex; flex-direction: column; justify-content: space-between; gap: 28px; min-height: 300px">
+<div style="display: flex; justify-content: space-between; align-items: center"><span style="color: #E39B00; letter-spacing: 3px" aria-label="Five stars">★★★★★</span><span style="font-size: 12px; color: #0B63CE">{{r.t}}</span></div>
+<blockquote style="margin: 0; font-size: 16px; line-height: 1.6; color: #0A1F3C">“Approved patient review goes here: two or three warm lines from a real Google review, shared with consent.”</blockquote>
+<figcaption style="display: flex; align-items: center; gap: 12px"><span style="width: 40px; height: 40px; border-radius: 0; background: #EEF5FC; color: #0B63CE; font-weight: 600; display: inline-flex; align-items: center; justify-content: center">{{r.i}}</span><span style="color: #0A1F3C; font-weight: 500">{{r.n}}<span style="display: block; font-size: 12px; color: #5B6B82; font-weight: 400">Google review</span></span></figcaption>
+</figure>
+</sc-if>
+</sc-for>
+</div>
+</section>
+
+<section id="visit" style="padding: 120px 0 0">
+<div class="ph ph-cta" style="position: relative; border-radius: 0; overflow: hidden; min-height: 520px; display: flex; align-items: center; justify-content: center; text-align: center; padding: 80px 32px">
+<div style="position: absolute; inset: 0; background: radial-gradient(70% 80% at 50% 50%, rgba(10,31,60,.35) 0%, rgba(10,31,60,.75) 100%)" aria-hidden="true"></div>
+<div style="position: relative; display: flex; flex-direction: column; align-items: center; gap: 28px; max-width: 820px">
+<h2 style="margin: 0; font-family: 'Inter Tight', sans-serif; font-weight: 700; font-size: clamp(48px, 6vw, 92px); line-height: .98; letter-spacing: -0.045em; color: #fff">Smile <span style="color: #8EC1F7">brighter.</span><br>Live <span style="color: #8EC1F7">better.</span></h2>
+<p style="margin: 0; color: rgba(255,255,255,.8); font-size: 18px; max-width: 520px">Your consultation is the first step. We’ll take it from there, gently.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 12px; justify-content: center">
+<a class="btn btn-bronze" href="#book" style="min-height: 60px; padding: 0 30px; font-size: 16px; box-shadow: none"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16"></rect><path d="M3 10h18M8 3v4M16 3v4"></path></svg>Book an appointment</a>
+<a class="btn btn-green" href="https://wa.me/918591183883" style="min-height: 60px; padding: 0 30px; font-size: 16px"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21l1.6-4.7A8.5 8.5 0 1 1 7.7 19.4z"></path></svg>Chat on WhatsApp</a>
+</div>
+</div>
+</div>
+
+<div class="pad-sm" style="max-width: 1320px; margin: 16px auto 0; padding: 0 32px; display: flex; flex-wrap: wrap; gap: 16px">
+<div style="flex: 2 1 600px; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); gap: 16px">
+<div style="background: #fff; border: 1px solid #DCE5EF; border-radius: 0; padding: 28px"><div style="font-size: 14px; font-weight: 500; color: #0B63CE; margin-bottom: 14px">Visit us</div><div style="font-family: 'Inter Tight', sans-serif; font-size: 20px; font-weight: 500; color: #0A1F3C; line-height: 1.3">Shop No. 32, Veena Sagar CHSL, Veena Nagar,<br>L.B.S. Marg, Mulund West, Mumbai 400080</div><a href="https://maps.app.goo.gl/yBGrt6A8jS5bcJLV8" target="_blank" rel="noopener" style="display: inline-flex; margin-top: 16px; font-weight: 500; font-size: 14px">Get directions →</a></div>
+<div style="background: #fff; border: 1px solid #DCE5EF; border-radius: 0; padding: 28px"><div style="font-size: 14px; font-weight: 500; color: #0B63CE; margin-bottom: 14px">Clinic hours</div><div style="display: flex; flex-direction: column; gap: 8px; font-size: 15px"><div style="display: flex; justify-content: space-between"><span>Mon to Sat</span><span style="color: #0A1F3C; font-weight: 500">10am to 2pm, 5pm to 9pm</span></div><div style="display: flex; justify-content: space-between"><span>Sunday</span><span style="color: #0A1F3C; font-weight: 500">By appointment</span></div><div style="display: flex; align-items: center; gap: 8px; margin-top: 6px; font-size: 13px; color: #0F6B37"><span style="width: 7px; height: 7px; border-radius: 50%; background: #0F7A3F"></span>Emergency? Call us anytime</div></div></div>
+<a class="lift" href="tel:+918591183883" style="background: #0A1F3C; border-radius: 0; padding: 28px; text-decoration: none; display: flex; flex-direction: column; justify-content: space-between; gap: 20px"><div style="font-size: 14px; font-weight: 500; color: #A9B8CE">Call us</div><div style="font-family: 'Inter Tight', sans-serif; font-size: 24px; font-weight: 500; color: #fff">+91 85911 83883</div></a>
+<a class="lift" href="https://wa.me/918591183883" style="background: #0F7A3F; border-radius: 0; padding: 28px; text-decoration: none; display: flex; flex-direction: column; justify-content: space-between; gap: 20px"><div style="font-size: 14px; font-weight: 500; color: #CDEBD8">WhatsApp</div><div style="font-family: 'Inter Tight', sans-serif; font-size: 24px; font-weight: 500; color: #fff">Chat with our desk →</div></a>
+</div>
+<a class="map" href="https://maps.app.goo.gl/yBGrt6A8jS5bcJLV8" target="_blank" rel="noopener" aria-label="Open Demira Dental Clinic in Google Maps" style="flex: 1 1 360px; min-height: 340px; border-radius: 0; position: relative; overflow: hidden; display: block">
+<div style="position: absolute; left: 50%; top: 46%; transform: translate(-50%, -100%); display: flex; flex-direction: column; align-items: center">
+<span style="background: #0A1F3C; color: #fff; font-size: 13px; font-weight: 500; padding: 8px 14px; border-radius: 0; white-space: nowrap; box-shadow: 0 10px 24px rgba(0,0,0,.18)">Demira Dental Clinic</span>
+<span style="width: 2px; height: 18px; background: #0A1F3C"></span>
+<span style="width: 16px; height: 16px; border-radius: 50%; background: #0B63CE; border: 4px solid #fff; box-shadow: 0 0 0 10px rgba(11,99,206,.18)"></span>
+</div>
+</a>
+</div>
+</section>
+
+<footer style="padding: 120px 0 0">
+<div class="pad-sm" style="background: #0A1F3C; border-radius: 0; padding: 72px 56px 32px; color: #A9B8CE">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 48px; padding-bottom: 56px; border-bottom: 1px solid rgba(255,255,255,.10)">
+<div style="max-width: 360px; display: flex; flex-direction: column; gap: 22px">
+<div style="display: flex; align-items: center; gap: 14px"><img src="assets/mark-white.png" alt="" style="height: 52px"><img src="assets/wordmark-white.png" alt="Demira" style="height: 16px"></div>
+<p style="margin: 0; font-size: 15px">Calm, modern and patient-first dentistry for the whole family.</p>
+<div style="display: flex; gap: 10px">
+<a href="https://www.instagram.com/demira_familydentalstudio/" target="_blank" rel="noopener" aria-label="Instagram" style="width: 44px; height: 44px; border-radius: 0; border: 1px solid rgba(255,255,255,.18); color: #fff; display: inline-flex; align-items: center; justify-content: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><path d="M17.5 6.5h.01"></path></svg></a>
+</div>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 64px">
+<nav aria-label="Clinic" style="display: flex; flex-direction: column; gap: 12px; font-size: 15px"><span style="color: #fff; font-weight: 500; margin-bottom: 4px">Clinic</span><a href="#about" style="color: #A9B8CE; text-decoration: none">About us</a><a href="#doctors" style="color: #A9B8CE; text-decoration: none">Doctors</a><a href="#why" style="color: #A9B8CE; text-decoration: none">Why Demira</a><a href="#reviews" style="color: #A9B8CE; text-decoration: none">Reviews</a></nav>
+<nav aria-label="Treatments" style="display: flex; flex-direction: column; gap: 12px; font-size: 15px"><span style="color: #fff; font-weight: 500; margin-bottom: 4px">Treatments</span><a href="#treatments" style="color: #A9B8CE; text-decoration: none">Implants</a><a href="#treatments" style="color: #A9B8CE; text-decoration: none">Aligners &amp; braces</a><a href="#treatments" style="color: #A9B8CE; text-decoration: none">Smile makeovers</a><a href="#treatments" style="color: #A9B8CE; text-decoration: none">Root canal</a><a href="#treatments" style="color: #A9B8CE; text-decoration: none">Kids’ dentistry</a></nav>
+<div style="display: flex; flex-direction: column; gap: 12px; font-size: 15px"><span style="color: #fff; font-weight: 500; margin-bottom: 4px">Contact</span><a href="tel:+918591183883" style="color: #A9B8CE; text-decoration: none">+91 85911 83883</a><a href="https://wa.me/918591183883" style="color: #A9B8CE; text-decoration: none">WhatsApp us</a><span>Mulund West, Mumbai</span></div>
+</div>
+</div>
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; font-size: 13px; padding-top: 20px; padding-bottom: 72px"><span>© 2026 Demira Dental Clinic</span><span>Website design preview</span></div>
+</div>
+</footer>
+
+<nav class="dock" aria-label="Quick actions"><span class="dock-label" style="color: #C9D5E6; font-size: 14px; padding: 0 20px">Need a dentist?</span><a class="btn btn-green" href="https://wa.me/918591183883"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21l1.6-4.7A8.5 8.5 0 1 1 7.7 19.4z"></path></svg>Chat with us</a><a class="btn btn-bronze" href="#book" style="box-shadow: none"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16"></rect><path d="M3 10h18M8 3v4M16 3v4"></path></svg>Book appointment</a></nav>
+</div>
+</template>
+
+<script>
+class DCLogic {
+  constructor(props) { this.props = props || {}; this.state = {}; }
+  setState(p) { Object.assign(this.state, typeof p === 'function' ? p(this.state) : p); if (!quiet) render(); }
+}
+let quiet = false;
+
+class Component extends DCLogic {
+  constructor(props) {
+    super(props);
+    this.state = { name: '', phone: '', treatment: 'Consultation & check-up', date: '', slot: 'Evening', error: '', sent: false };
+  }
+  renderVals() {
+    const s = this.state;
+    const set = (k) => (e) => this.setState({ [k]: e.target.value, error: '' });
+    const I = {
+      tooth: 'M8.5 3C6.3 3 5 4.8 5.4 7.2c.3 1.8 1.1 2.9 1.4 4.6.5 2.6.7 6.2 2.1 6.2 1.1 0 1.3-2.8 1.8-4 .3-.8.8-1.2 1.3-1.2s1 .4 1.3 1.2c.5 1.2.7 4 1.8 4 1.4 0 1.6-3.6 2.1-6.2.3-1.7 1.1-2.8 1.4-4.6C19 4.8 17.7 3 15.5 3 14 3 13.4 3.8 12 3.8S10 3 8.5 3z',
+      spark: 'M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8zM19 16l.7 1.8 1.8.7-1.8.7-.7 1.8-.7-1.8-1.8-.7 1.8-.7z',
+      crown: 'M4 19h16M5 16l-1-9 5 4 3-6 3 6 5-4-1 9z',
+      brace: 'M2 12h20M4 9h4v6H4zM10 9h4v6h-4zM16 9h4v6h-4z',
+      implant: 'M8 3h8v4H8zM9 9.5l6-1.5M9 13l6-1.5M9 16.5l6-1.5M9 7v10l3 4 3-4V7',
+      kid: 'M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18zM9 10h.01M15 10h.01M8.5 14.5a4 4 0 0 0 7 0',
+      shield: 'M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6zM9 12l2 2 4-4',
+      plus: 'M7 4h10a3 3 0 0 1 3 3v10a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3V7a3 3 0 0 1 3-3zM12 8v8M8 12h8'
+    };
+    const svc = (title, text, icon, cls) => ({ title, text, icon, cls });
+    const slotDefs = [ { label: 'Morning', time: '10 to 1' }, { label: 'Afternoon', time: '1 to 4' }, { label: 'Evening', time: '4 to 8' } ];
+    const msg = 'Hi Demira, I’d like to book: ' + s.treatment + (s.date ? ' on ' + s.date : '') + ', ' + s.slot + '. Name: ' + s.name + ', Phone: ' + s.phone;
+    return {
+      ...s,
+      editing: !s.sent,
+      hasError: !!s.error,
+      firstName: (s.name || '').trim().split(' ')[0] || 'there',
+      waLink: 'https://wa.me/918591183883?text=' + encodeURIComponent(msg),
+      treatments: ['Consultation & check-up', 'Cleaning & scaling', 'Teeth whitening', 'Root canal', 'Braces / aligners', 'Dental implants', 'Kids’ dentistry', 'Tooth extraction', 'Not sure yet'],
+      slots: slotDefs.map((x) => ({ ...x, on: s.slot === x.label, off: s.slot !== x.label, pick: () => this.setState({ slot: x.label }) })),
+      onName: set('name'), onPhone: set('phone'), onTreatment: set('treatment'), onDate: set('date'),
+      submit: (e) => {
+        if (e && e.preventDefault) e.preventDefault();
+        if (!s.name.trim()) return this.setState({ error: 'Please add your name.' });
+        if ((s.phone || '').replace(/\D/g, '').length < 10) return this.setState({ error: 'Please enter a valid 10-digit mobile number.' });
+        this.setState({ sent: true, error: '' });
+      },
+      reset: () => this.setState({ sent: false, name: '', phone: '', date: '' }),
+      marquee: ['DCI-registered specialists', 'Sterilised for every patient', 'Digital X-ray & imaging', 'Same-day emergency care', 'Easy EMI options', 'Open six days a week', 'DCI-registered specialists', 'Sterilised for every patient', 'Digital X-ray & imaging', 'Same-day emergency care', 'Easy EMI options', 'Open six days a week'],
+      services: [
+        svc('General Dentistry', 'Check-ups, cleaning & fillings', I.tooth, 'ph-clinic'),
+        svc('Cosmetic Dentistry', 'Whitening, veneers & smile design', I.spark, 'ph-smile'),
+        svc('Restorative', 'Root canal, crowns & bridges', I.crown, 'ph-rest'),
+        svc('Orthodontics', 'Braces & clear aligners', I.brace, 'ph-aligner'),
+        svc('Dental Implants', 'Permanent, natural-looking teeth', I.implant, 'ph-impl'),
+        svc('Paediatric', 'Gentle care for little smiles', I.kid, 'ph-kids'),
+        svc('Preventive Care', 'Sealants, fluoride & guards', I.shield, 'ph-prev'),
+        svc('Oral Surgery', 'Extractions & wisdom teeth', I.plus, 'ph-surg')
+      ],
+      bars: Array.from({ length: 28 }, (_, i) => ({ on: i < 24, off: i >= 24 })),
+      hygiene: ['Class-B autoclave sterilisation', 'Sealed instrument pouches', 'Single-use disposables', 'Surfaces disinfected between patients'],
+      doctors: [
+        { name: 'Dr. Mrinalini Deep Kataria', role: 'Founder, B.D.S (MUHS)', cls: 'ph-doc1' },
+        { name: 'Dr. Kartik Bhanushali', role: 'M.D.S, Consultant', cls: 'ph-doc2' },
+        { name: 'The Demira team', role: 'Care you feel, results you trust', cls: 'ph-doc3' }
+      ],
+      steps: [
+        { n: '01', t: 'Book in a minute', d: 'Online, on WhatsApp or by phone. We confirm your slot quickly.' },
+        { n: '02', t: 'Relaxed consultation', d: 'A thorough, gentle check-up with digital X-rays where needed.' },
+        { n: '03', t: 'Your plan, explained', d: 'Clear options, timelines and costs in writing. No pressure.' },
+        { n: '04', t: 'Care that follows up', d: 'Treatment at your pace, with aftercare and timely reminders.' }
+      ],
+      reviews: [
+        { n: 'Patient name', i: 'A', t: 'Clear aligners', dark: false, light: true },
+        { n: 'Patient name', i: 'R', t: 'Root canal', dark: true, light: false },
+        { n: 'Patient name', i: 'S', t: 'Teeth whitening', dark: false, light: true },
+        { n: 'Patient name', i: 'K', t: 'Kids’ dentistry', dark: false, light: true }
+      ]
+    };
+  }
+}
+
+// Minimal template renderer for the {{holes}}, <sc-for> and <sc-if> markup.
+const comp = new Component({});
+const EV = { onclick: 'click', onsubmit: 'submit', onchange: 'input' };
+const strip = (v) => (v || '').replace(/^\s*\{\{|\}\}\s*$/g, '');
+function get(scope, expr) {
+  try { return Function(...Object.keys(scope), 'return (' + expr.trim() + ')')(...Object.values(scope)); }
+  catch (e) { return undefined; }
+}
+const fill = (str, scope) => str.replace(/\{\{([^}]+)\}\}/g, (m, e) => { const v = get(scope, e); return v == null ? '' : v; });
+function proc(node, scope) {
+  if (node.nodeType === 3) { if (node.nodeValue.includes('{{')) node.nodeValue = fill(node.nodeValue, scope); return; }
+  if (node.nodeType !== 1) return;
+  const tag = node.tagName.toLowerCase();
+  if (tag === 'sc-for') {
+    const list = get(scope, strip(node.getAttribute('list'))) || [];
+    const as = node.getAttribute('as');
+    const frag = document.createDocumentFragment();
+    for (const item of list) for (const ch of node.childNodes) { const c = ch.cloneNode(true); frag.appendChild(c); proc(c, { ...scope, [as]: item }); }
+    node.replaceWith(frag); return;
+  }
+  if (tag === 'sc-if') {
+    const ok = get(scope, strip(node.getAttribute('value')));
+    const kids = ok ? [...node.childNodes] : [];
+    const frag = document.createDocumentFragment(); kids.forEach((k) => frag.appendChild(k));
+    node.replaceWith(frag); kids.forEach((k) => proc(k, scope)); return;
+  }
+  for (const a of [...node.attributes]) {
+    if (!a.value.includes('{{')) continue;
+    const n = a.name.toLowerCase();
+    if (EV[n]) {
+      const fn = get(scope, strip(a.value)); node.removeAttribute(a.name);
+      if (typeof fn === 'function') {
+        if (n === 'onchange') node.addEventListener('input', (e) => { quiet = !comp.state.error; fn(e); quiet = false; });
+        else node.addEventListener(EV[n], fn);
+      }
+      continue;
+    }
+    const val = fill(a.value, scope); node.setAttribute(a.name, val);
+    if (n === 'data-d') node.setAttribute('d', val);
+    if (n === 'value' && 'value' in node && tag !== 'select') node.value = val;
+  }
+  if (tag === 'select' && node.dataset.options) {
+    for (const t of get(scope, node.dataset.options) || []) { const o = document.createElement('option'); o.value = o.textContent = t; node.appendChild(o); }
+    node.value = node.getAttribute('value');
+  }
+  for (const ch of [...node.childNodes]) proc(ch, scope);
+}
+function render() {
+  const scope = comp.renderVals();
+  const frag = document.importNode(document.getElementById('tpl').content, true);
+  for (const ch of [...frag.childNodes]) proc(ch, scope);
+  const app = document.getElementById('app');
+  const y = window.scrollY; app.replaceChildren(frag); window.scrollTo(0, y);
+}
+render();
+</script>
+</body>
+</html>
